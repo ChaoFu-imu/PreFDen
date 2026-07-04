@@ -33,7 +33,7 @@
 # The network structure of the pre-trained stage is shown below:
 ![Pre-trained](Fig/Pre-trained.png)
 # The network structure of the fine-tuning stage is shown below:
-![Fine-tuning](https://github.com/furser1/ISAnet/blob/main/Fig/1.png)
+![Fine-tuning](Fig/1.png)
 # :hotsprings: Example
 ## (1) Loading the .mat Data 
 - All data is stored in .mat format. You can run this script to convert the format from` MATLAB `->` Python`.
@@ -45,7 +45,7 @@ Dn = data['DataNoisy']
 ```
 # :memo: Taking synthetic 2D seismic data as an example
 - The figure below shows the clean data and the data contaminated by irrelevant noise. It contains one set of horizontal events and two sets of intersecting dipping events. The code for plotting the above results is stored in the folder named plotting.
-![syn2d](https://github.com/furser1/ISAnet/blob/main/Fig/3.png)
+![syn2d](Fig/2.png)
 ## (2) Environment Setup
 This seismic denoising model uses Python 3.11.14 with fixed package versions for full reproducibility.
 Basic Info
