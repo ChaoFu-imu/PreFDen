@@ -18,11 +18,11 @@
 
 |name     |data size|Patch size|Slid size|Patches|
 | :--------|:--- | :----- | :-------- |:-------- |
-|Amirsyn2d + Coh2d| 500 $\times$ 700   |   30 $\times$ 30   | 4 $\times$ 4   |23283 |
+|Amirsyn2d + Coh2d| 500 $\times$ 700   |   35 $\times$ 35   | 4 $\times$ 4   |22849 |
 |Amirsyn| 500 $\times$ 35 $\times$ 40 |  12 $\times$ 12 $\times$ 12 | 4 $\times$ 2 $\times$ 2 |23985 |
-|seis2dsyn| 512 $\times$ 64   |   30 $\times$ 30   | 1 $\times$ 1   |16905 |
+|seis2dsyn| 512 $\times$ 64   |   35 $\times$ 35   | 1 $\times$ 1   |14340 |
 |seis3dsyn| 401 $\times$ 64 $\times$ 64 |  12 $\times$ 12 $\times$ 12 | 3 $\times$ 1 $\times$ 1 |367979 |
-|real2d   |512 $\times$ 128   |   30 $\times$ 30   | 1 $\times$ 1   |47817 |
+|real2d   |512 $\times$ 128   |   30 $\times$ 30   | 1 $\times$ 1   |44932 |
 |real3d   |256 $\times$ 64 $\times$ 48 |  12 $\times$ 12 $\times$ 12 | 3 $\times$ 1 $\times$ 1 |162763 |
 #  :rocket:  File Description
 - `Fine-tuning`：Both the denoising networks of Pre-trained Foundation Model during the fine-tuning stage for synthetic data and field data are stored here, including both 2D and 3D versions.
