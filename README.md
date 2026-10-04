@@ -36,10 +36,10 @@
 
 | Category | Patches(2D/3D) |
 | :--- | :--- |
-| **Synthetic Prestack** | 292950/328273 |
-| **Synthetic Poststack**| 67077/75262 |
-| **Real Prestack** | 6264/7018 |
-| **Real Poststack** | 117351/131527 |
+| **SWAN_syn_prestack_10percent_high_quality_SNR-4dB_impulse10pct_random** | 292950/328273 |
+| **SWAN_syn_poststack_10percent_high_quality_SNR-4dB_impulse10pct_random**| 67077/75262 |
+| **SWAN_real_prestack_10percent_high_quality_SNR-4dB_impulse10pct_random** | 6264/7018 |
+| **SWAN_real_poststack_10percent_high_quality_SNR-4dB_impulse10pct_random** | 117351/131527 |
 
 The data ultimately used for pre-training is shown in the figure below：
 ![Pre-trained](Fig/data.png)
